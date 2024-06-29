@@ -1,0 +1,107 @@
+main{
+    background-color: rgb(244, 244, 244);
+    padding-bottom: 20px;
+}
+body,*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    margin: 3% ;
+    background-color: white;
+    padding: 2%;
+    border-radius: 8px;
+    
+}
+nav{
+    background-color: black;
+    padding: 20px;
+
+}
+nav ul{
+   gap: 40px;
+    display: flex;
+   justify-content: flex-end;
+   
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 26px;
+    color: rgb(255, 123, 0);
+    margin: 20px;
+    padding: 20px;
+}
+p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(86, 86, 86);
+}
+.action{
+    display: flex;
+    justify-content: center;
+    
+}
+.action div{
+    flex: 1;
+}
+.action p{
+    flex: 1;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    background-color: rgb(255, 123, 0);
+    font-size: 22px;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+#road-map ul li{
+font-size: 22px;
+line-height: 50px;
+margin-left: 2%;
+}
+.update{
+    border: 1px solid  rgb(255, 123, 0);
+    border-radius: 10px;
+}
+.final{
+    text-align: center;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+footer p{
+    color: white;
+}
+footer ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 20px;
+}
